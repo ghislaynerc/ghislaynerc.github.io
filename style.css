@@ -555,7 +555,6 @@ tbody tr:nth-child(odd) {
     gap: 2rem;
     align-items: center;
     background-repeat: no-repeat;
-    
 }
 
 .reservation__heading {
@@ -764,7 +763,7 @@ footer i {
     color: #39a33d;
     align-self: center;
     margin-left:0;
-    text-shadow: 3px 3px 0 #ffffff;
+    text-shadow: 2px 2px 0 #ffffff;
 }
 
 .footer__top p {
@@ -799,6 +798,7 @@ footer i {
     font-weight: 300;
     letter-spacing: 1px;
     text-align: center;
+    text-shadow: 2px 2px 0 #000000;
 }
 
 .footer__bottom .icons {

@@ -61,7 +61,12 @@
     gap: 2rem;
     letter-spacing: 2px;
 }
-
+.menu__item a{
+    text-decoration: none;
+}
+.menu__item a:hover{
+    text-decoration: underline;
+}
 .hero__main {
     display: flex;
     padding-inline: 2.5rem;
@@ -117,8 +122,6 @@
 .hero__img img:hover {
     box-shadow: 3px 3px 10px 10px #b81717;
 }
-
-
 
 .hero__img img {
     max-width: 100%;
@@ -798,7 +801,7 @@ footer i {
     font-weight: 300;
     letter-spacing: 1px;
     text-align: center;
-    text-shadow: 2px 2px 0 #000000;
+    text-shadow: 2px 1px 0 #000000;
 }
 
 .footer__bottom .icons {

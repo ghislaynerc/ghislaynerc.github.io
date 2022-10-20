@@ -772,6 +772,7 @@ footer i {
     color: #39a33d;
     align-self: center;
     margin-left:0;
+    text-shadow: 3px 3px 0 #ffffff;
 }
 
 .footer__top p {
@@ -783,6 +784,7 @@ footer i {
     justify-content:flex-end;
     align-self: center;
     margin-right:0;
+    text-shadow: 1px 1px 0 #ffffff;
 }
 
 .address p {
@@ -829,11 +831,18 @@ footer i {
 
     .hero__header {
         flex-direction: column;
+        padding: 0rem 2rem;
         gap: 0.5rem;
+        align-self: center;
     }
 
     .header__right {
-        align-items: flex-start;
+        align-items: center;
+    }
+
+    .img__logo{
+        width: 50%;
+        align-self: center;
     }
 
     .hero__img {
@@ -846,19 +855,25 @@ footer i {
 
     .hero__main {
         padding-inline: 2rem;
-        padding-top: 3rem;
+        /* padding-top: 3rem; */
     }
 
     .header__right .menu {
         flex-direction: column;
         align-items: center;
-        padding: 3rem;
+        padding: 1rem;
+        font-size: 1.85rem;
+    }
+    .hero__text {
+        align-items: center;
     }
     .hero__text h2 {
         font-size: 3rem;
+        text-align: center;
     }
     .hero__text h3 {
         font-size: 1.7rem;
+        text-align: center;
     }
     .titles h4{
         font-size: 1rem;
@@ -866,6 +881,13 @@ footer i {
     .titles h2{
         font-size: 2.5rem;
     } 
+    .sale {
+        left: 1rem;
+        padding: 2.6rem;
+    }
+    .only {
+        font-size: 1rem;
+    }
     .grid {
         display: flex;
         flex-direction: column;
@@ -891,6 +913,7 @@ footer i {
 
     .cards, .cards__promo {
         flex-direction: column;
+        padding: 5px
     }
     .cards__tittle h3, .cards__promo__tittle h3 {
         font-size: 2rem;
@@ -902,13 +925,19 @@ footer i {
     }
 
     .pedido__form {
-        width: 100%;
+        width: 85%;
         display: flex;
         flex-direction: column;
+        gap: 0.25rem;
     }
     .pedido__form label {
         text-align: center;
+        font-size: 1.1rem;
     }
+    .pedido__form .button__agregar{
+        align-self: center;
+    }
+    
     .select__option {
         font-size: 1rem;
     }
@@ -921,20 +950,30 @@ footer i {
         display: flex;
         flex-direction: column;
     }
+    .tabla__carrito{
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
 
     .reservation {
-        padding: 2rem;
+        padding: 0rem 2rem;
         background-image: none;
+        gap: 1rem;
     }
 
     .reservation__form {
         width: 100%;
         display: flex;
         flex-direction: column;
+        gap: 0;
     }
     .reservation__form input {
         margin: 0.6rem;
         }
+    
+    .reservation__form .button{
+        align-self: center;
+    }
     .events {
         padding: 2rem;
     }
@@ -947,7 +986,7 @@ footer i {
         order: -1;
     }    
     footer {
-        padding: 2rem;
+        padding: auto 1rem;
     }
 
     .footer__top {
@@ -967,6 +1006,10 @@ footer i {
 
     .footer__bottom .icons {
         order: -1;
+    }
+    .wpp {
+        width: 15%;
+        bottom: 50px;
     }
     
 }
